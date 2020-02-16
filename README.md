@@ -65,4 +65,4 @@ versus the opening price as a predictor of the closing price is evident.  It wou
 try and predict the closing price.  The relationship is stronger than the splines and also the opening prices do not vary 
 as much as the volume does.  
 
-![image](https://user-images.githubusercontent.com/58529391/74599853-8f8f9400-503d-11ea-8e61-7e94d505468b.png)
+![image](https://user-images.githubusercontent.com/58529391/74599915-82bf7000-503e-11ea-8246-317d2a830258.png)
