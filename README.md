@@ -41,6 +41,8 @@ plot(volume,Close,col="gray")
 lines(volume.grid,prediction_volume$fit,col="red",lwd=3)
 
 ```
+https://github.com/adavis-85/Stock-price-with-splines/issues/1#issue-565840838
+
 As seen in the graph the fit using 16 degrees of freedom the volume does vary greatly pertaining to the closing price.
 Next a smooth spline is fit to the same data using cross-validation to find the best degree of freedom.
 ```
