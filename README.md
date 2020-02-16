@@ -40,8 +40,6 @@ prediction_volume=predict(fit2,newdata=list(volume=volume.grid),se=T)
 plot(volume,Close,col="gray")
 lines(volume.grid,prediction_volume$fit,col="red",lwd=3)
 
-https://user-images.githubusercontent.com/58529391/74598228-9b219180-5022-11ea-87a1-d511823a8bb4.png
-
 ```
 As seen in the graph the fit using 16 degrees of freedom the volume does vary greatly pertaining to the closing price.
 Next a smooth spline is fit to the same data using cross-validation to find the best degree of freedom.
