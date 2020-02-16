@@ -1,4 +1,4 @@
-# Stock price with splines
+# Stock opening price vs. volume
 
 Searching through Tesla's stock prices from the last year it is evident that there is relationships
 between the different variables.  The dates can be checked for their variances but first the opening prices
