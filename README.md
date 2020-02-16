@@ -18,6 +18,8 @@ lines(Open.grid,pred$fit,col="red",lwd=3)
 
 
 ```
+![image](https://user-images.githubusercontent.com/58529391/74598228-9b219180-5022-11ea-87a1-d511823a8bb4.png)
+
 To use a spline in R the range over which the spline function will be fit to needs to be specified.  The range of opening
 prices is used to make a prediction using a natural spline with six degrees of freedom to start.  As seen in the attached 
 graph file there is a strong linear relationship between the opening price and the closing price.  There is not many dips
@@ -41,7 +43,6 @@ plot(volume,Close,col="gray")
 lines(volume.grid,prediction_volume$fit,col="red",lwd=3)
 
 ```
-![image](https://user-images.githubusercontent.com/58529391/74598228-9b219180-5022-11ea-87a1-d511823a8bb4.png)
 
 As seen in the graph the fit using 16 degrees of freedom the volume does vary greatly pertaining to the closing price.
 Next a smooth spline is fit to the same data using cross-validation to find the best degree of freedom.
