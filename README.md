@@ -64,3 +64,5 @@ As seen the smooth splines are close to the natural spline using 16 degrees of f
 versus the opening price as a predictor of the closing price is evident.  It would be better to use the opening price to 
 try and predict the closing price.  The relationship is stronger than the splines and also the opening prices do not vary 
 as much as the volume does.  
+
+![image](https://user-images.githubusercontent.com/58529391/74599853-8f8f9400-503d-11ea-8e61-7e94d505468b.png)
